@@ -22,6 +22,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onShowGridView(View view) {
-
+        startActivity(new Intent(this,GridViewActivity.class));
     }
 }
